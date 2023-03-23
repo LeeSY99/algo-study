@@ -15,7 +15,7 @@ for r in range(n):
         for k in range(2 * (n - 1) + 1):
             gold_sum=get_gold(r,c,k)
             if gold_sum*m>=get_cost(k):
-                max_gold=max(max_gold,gold_sum)\
+                max_gold=max(max_gold,gold_sum)
 
 
 print(max_gold)
