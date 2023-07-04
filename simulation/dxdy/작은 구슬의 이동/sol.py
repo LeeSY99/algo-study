@@ -24,3 +24,4 @@ for _ in range(t):
         dir=(dir+2)%4
 
 print(r,c)
+#O(t)
